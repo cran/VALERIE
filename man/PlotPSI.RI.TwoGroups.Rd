@@ -4,17 +4,10 @@
 \alias{PlotPSI.RI.TwoGroups}
 \title{Percent spliced-in (PSI) visualization for retained introns (RI)}
 \usage{
-PlotPSI.RI.TwoGroups(
-  object,
-  SampleInfo,
-  ExonInfo,
+PlotPSI.RI.TwoGroups(object, SampleInfo, ExonInfo,
   statistical.test = c("wilcox", "t.test"),
-  multiple.testing = c("holm", "hochberg", "hommel", "bonferroni", "BH", "BY", "fdr",
-    "none"),
-  Plots,
-  plot.width,
-  plot.height
-)
+  multiple.testing = c("holm", "hochberg", "hommel", "bonferroni", "BH",
+  "BY", "fdr", "none"), Plots, plot.width, plot.height)
 }
 \arguments{
 \item{object}{Object of class rehab generated using \code{ComputePSI}.}

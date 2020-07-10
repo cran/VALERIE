@@ -4,17 +4,10 @@
 \alias{PlotPSI.A5SS.TwoGroups}
 \title{Percent spliced-in (PSI) visualization for alternative 5' splice sites (A5SS)}
 \usage{
-PlotPSI.A5SS.TwoGroups(
-  object,
-  SampleInfo,
-  ExonInfo,
+PlotPSI.A5SS.TwoGroups(object, SampleInfo, ExonInfo,
   statistical.test = c("wilcox", "t.test"),
-  multiple.testing = c("holm", "hochberg", "hommel", "bonferroni", "BH", "BY", "fdr",
-    "none"),
-  Plots,
-  plot.width,
-  plot.height
-)
+  multiple.testing = c("holm", "hochberg", "hommel", "bonferroni", "BH",
+  "BY", "fdr", "none"), Plots, plot.width, plot.height)
 }
 \arguments{
 \item{object}{Object of class rehab generated using \code{ComputePSI}.}

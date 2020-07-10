@@ -4,17 +4,10 @@
 \alias{PlotPSI.RI.MultiGroups}
 \title{Percent spliced-in (PSI) visualization for retained introns (RI)}
 \usage{
-PlotPSI.RI.MultiGroups(
-  object,
-  SampleInfo,
-  ExonInfo,
-  statistical.test = c("KW", "ANOVA"),
-  multiple.testing = c("holm", "hochberg", "hommel", "bonferroni", "BH", "BY", "fdr",
-    "none"),
-  Plots,
-  plot.width,
-  plot.height
-)
+PlotPSI.RI.MultiGroups(object, SampleInfo, ExonInfo,
+  statistical.test = c("KW", "ANOVA"), multiple.testing = c("holm",
+  "hochberg", "hommel", "bonferroni", "BH", "BY", "fdr", "none"), Plots,
+  plot.width, plot.height)
 }
 \arguments{
 \item{object}{Object of class rehab generated using \code{ComputePSI}.}

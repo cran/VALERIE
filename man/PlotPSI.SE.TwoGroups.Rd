@@ -4,17 +4,10 @@
 \alias{PlotPSI.SE.TwoGroups}
 \title{Percent spliced-in (PSI) visualization for skipped exons (SE)}
 \usage{
-PlotPSI.SE.TwoGroups(
-  object,
-  SampleInfo,
-  ExonInfo,
+PlotPSI.SE.TwoGroups(object, SampleInfo, ExonInfo,
   statistical.test = c("wilcox", "t.test"),
-  multiple.testing = c("holm", "hochberg", "hommel", "bonferroni", "BH", "BY", "fdr",
-    "none"),
-  Plots,
-  plot.width,
-  plot.height
-)
+  multiple.testing = c("holm", "hochberg", "hommel", "bonferroni", "BH",
+  "BY", "fdr", "none"), Plots, plot.width, plot.height)
 }
 \arguments{
 \item{object}{Object of class rehab generated using \code{ComputePSI}.}

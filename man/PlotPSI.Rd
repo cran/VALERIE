@@ -4,19 +4,10 @@
 \alias{PlotPSI}
 \title{Percent spliced-in (PSI) visualization for alternative splicing events}
 \usage{
-PlotPSI(
-  object,
-  SampleInfo,
-  ExonInfo,
-  statistical.test = c("wilcox", "t.test", "KW", "ANOVA"),
-  multiple.testing = c("holm", "hochberg", "hommel", "bonferroni", "BH", "BY", "fdr",
-    "none"),
-  Plots,
-  plot.width,
-  plot.height,
-  EventType = c("SE", "MXE", "RI", "A5SS", "A3SS"),
-  Groups
-)
+PlotPSI(object, SampleInfo, ExonInfo, statistical.test = c("wilcox",
+  "t.test", "KW", "ANOVA"), multiple.testing = c("holm", "hochberg",
+  "hommel", "bonferroni", "BH", "BY", "fdr", "none"), Plots, plot.width,
+  plot.height, EventType = c("SE", "MXE", "RI", "A5SS", "A3SS"), Groups)
 }
 \arguments{
 \item{object}{Object of class rehab generated using \code{ComputePSI}.}
